@@ -1,0 +1,31 @@
+/* DISPLAY: BLOCK */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section,.main{
+    display: block;
+}
+/* TEXT */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+    color: #1e1f23;
+}
+h3{
+    font-size: 1.35rem;
+}
+a,i{ 
+    color: #fff;
+    text-decoration: none;
+}
+html{
+    font-size: 12pt;
+}
+li{
+    display: inline=block;
+    padding: 0 1rem 0 0;
+}
+label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+}

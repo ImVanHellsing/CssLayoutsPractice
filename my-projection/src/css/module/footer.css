@@ -1,0 +1,14 @@
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 6em 0;
+}   
+    footer form{
+        margin-bottom: 2em;
+    }
+    footer h3{
+        color: #fff;
+        font-size: 1.75em;
+        margin-bottom: 2em;
+    }

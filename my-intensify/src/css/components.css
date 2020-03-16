@@ -1,0 +1,90 @@
+/* NAVBAR */
+
+    /* NAVBAR BTN toggle */
+    .nav-menu{
+        font-size: 2.5em;
+        color: #DEE1E3;
+
+        margin: auto 100px auto 32px;
+    }
+        .nav-menu:hover{
+            cursor: pointer;
+            color: var(--secundary-color);
+        }
+
+    /* NAVBAR logo*/
+    .nav-logo{
+        margin: auto;
+        font-size: 1.2em;
+    }
+        .nav-logo a{
+            font-size: 2.5em;
+            font-family: "Pacifico", cursive;
+            color: var(--primary-color);
+            letter-spacing: 2px;
+        }
+    /* NAVBAR btn*/
+    .nav-btn{ 
+        display: inline-block;
+        background-color: transparent;
+        box-shadow: inset 0 0 0 1px #dee1e3;
+        cursor: pointer;
+
+        padding: 0 2em;
+        border-radius: 4px;
+        margin: 32px 32px 32px 0;
+    }
+    .nav-btn:hover{
+        background-color: rgb(251, 250, 250);
+    }
+    .nav-btn a{
+        color:#727A82;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14pt;
+        font-weight: 800;
+        white-space: nowrap;
+        text-transform: uppercase;
+        
+        height: 3.25em;
+        line-height: 3.25em;
+    }
+/* FOOTER */
+
+    /* FOOTER action*/
+    ul.actions {
+        display: flex;
+        justify-content: center;
+        cursor: default;
+        list-style: none;
+        padding-left: 0;
+        margin: 0 0 2em 0;
+    }
+    ul.actions li {
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 100%;
+        letter-spacing: inherit;
+    }
+    .icon {
+        text-decoration: none;
+        border-bottom: none;
+        position: relative;
+    }
+    .inner {
+        margin: 0 auto;
+        max-width: 65em;
+    }
+    /* FOOTER Copyright*/
+    .copyright {
+        display: inline-block;
+        color: #a7d9e7;
+        font-size: 0.9em;
+        margin: 0 0 2em 0;
+        padding: 0;
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.25);
+        padding: 2em 10em;
+    }
+    .copyright a:hover{
+        color: var(--primary-color);
+    }

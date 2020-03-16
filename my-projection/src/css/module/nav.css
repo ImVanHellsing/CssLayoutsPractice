@@ -1,0 +1,24 @@
+/* HEADER */
+header{
+    width: 100%;
+    line-height: 44px;
+    background-color: var(--primary-color);
+
+    position: fixed;
+    top: 20;
+
+    padding: .1em;
+}
+    /* NAV */
+    nav{
+        color: #fff;
+    }
+        nav a{
+            margin-left: 1.5em;
+        }
+        nav a:hover,
+        nav strong:hover,
+        nav span:hover{
+            cursor: pointer;
+            color: rgba(255, 254, 254, 0.486);
+        }

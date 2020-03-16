@@ -1,0 +1,59 @@
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    position: 0px;
+    background-color: #fff;
+}
+    header a{
+        cursor: pointer;
+    }
+/* BODY */
+body{
+    font-family: sans-serif;
+}
+/* FOOTER */
+footer{
+    padding: 6em 0 4em 0;
+    background: #25a2c3;
+    text-align: center;
+    color: #c8e7f0;
+}
+    footer h2{
+        color: #fff;
+        font-size: 2em;
+    }
+    footer a{
+        color: #c8e7f0;
+        letter-spacing: 1px;
+        margin-left: 5px;
+    }
+    footer a:hover{
+        color: #f6755e;
+        letter-spacing: 1.5px;
+    }
+    footer .icon {
+        color: #f6755e;
+    }
+    footer ul li {
+        padding: 0 2em;
+        font-size: 1.3em;
+    }
+/* GENERAL */
+h1, h2, h3, h4, h5, h6 {
+    color: #727a82;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+section{
+    width: 100%;
+}
+p {
+    margin: 0 0 2em 0;
+}

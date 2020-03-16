@@ -1,0 +1,28 @@
+footer {
+    padding: 4rem 0 2rem 0;
+    background: #000;
+    text-align: center;
+}
+    footer .copyright {
+        color: #bbb;
+        font-size: 1rem;
+        margin: 0 0 2rem 0;
+        padding: 0;
+        text-align: center;
+    }
+    footer ul{
+        cursor: default;
+        list-style: none;
+        padding-left: 0;
+        margin: 0 0 2rem 0;
+    }
+    footer ul li{
+        display: inline-block;
+        padding: 0 1rem 0 0;
+        font-size: 2em;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    footer ul li:hover{
+        color: #fff;
+        cursor: pointer;
+    }

@@ -1,0 +1,11 @@
+/* MAIN Container */
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.container-footer{
+    margin: 0 auto;
+}
+.container-trans{
+    width: 100%;
+}

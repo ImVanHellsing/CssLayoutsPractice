@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hielo by Matheus</title>
+
+    <!-- CSS Links  -->
+    <link rel="stylesheet" href="./src/css/base/reset.css">
+    <link rel="stylesheet" href="./src/css/base/base.css">
+    
+    <link rel="stylesheet" href="./src/css/containers/main-container.css">
+
+    <link rel="stylesheet" href="./src/css/modules/components.css">
+    <link rel="stylesheet" href="./src/css/modules/footer.css">
+    <link rel="stylesheet" href="./src/css/modules/sidebar.css">
+
+    <link rel="stylesheet" href="./src/css/layouts/index.css">
+
+</head>
+<body onload="load()">
+
+    <!-- FONT AWESOME LINK -->
+    <script src="https://kit.fontawesome.com/e28f022a91.js" crossorigin="anonymous"></script>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- NAVBAR -->
+        <nav id="navbar">
+
+            <!-- NAVBAR LOGO -->
+            <nav class="nav-logo">
+                <a href="#"><strong>Hielo</strong> by <span>Matheus</span></a>
+            </nav>
+            <!-- NAVBAR SIDEBAR BTN -->
+            <nav class="nav-btn">
+                <i class="fas fa-bars"></i>
+                <a href="#">Menu</a>
+            </nav>
+            
+        </nav>
+        
+    </header>
+
+    <!-- SIDEBAR -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Generic</a></li>
+            <li><a href="#">Elements</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="./src/img/slide01.jpg">
+            <div class="text">
+                <h2>A FREE RESPONSIVE WEB SITE TEMPLATE BY TEMPLATED</h2>
+                <h1>Hielo</h1>
+            </div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="./src/img/slide02.jpg">
+            <div class="text">
+                <h2>LOREM IPSUM DOLOR SIT AMET NULLAM FEUGIAT</h2>
+                <h1>Magna etiam</h1>
+            </div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="./src/img/slide03.jpg">
+            <div class="text">
+                <h2>SED CURSUS ALIUAM VEROEROS LOREM IPSUM NULLAM</h2>
+                <h1>Tempus dolor</h1>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./src/img/slide04.jpg">
+            <div class="text">
+                <h2>ADIPISCING LOREM IPSUM FEUGIAT SED PHASELLUS CONSEQUAT</h2>
+                <h1>Etiam feugiat</h1>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./src/img/slide05.jpg">
+            <div class="text">
+                <h2>IPSUM DOLOR SED MAGNA VEROEROS LOREM IPSUM</h2>
+                <h1>Lorem adipiscing</h1>
+            </div>
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <!-- The dots/circles -->
+    <div id="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+
+    <!-- SECTION BODY -->
+    <section id="body">
+        <div class="container">
+            <div id="left">
+                <img src="./src/img/pic02.jpg">
+                <div class="content">
+                    <h4>MAECENAS SAPIEN FEUGIAT EX PURUS</h4>
+                    <h3>Lorem ipsum dolor</h3>
+                    <p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div id="right">
+                <img src="./src/img/pic03.jpg">
+                <div class="content">
+                    <h4>MATTIS ELEMENTUM SAPIEN PRETIUM TELLUS</h4>
+                    <h3>Vestibulum sit amet</h3>
+                    <p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION TITLE TRANSPARENT -->
+    <section>
+        <div class="container-trans">
+            <div class="title transparent">
+                <h3>NAM VEL ANTE SIT AMET LIBERO SCELERISQUE FACILISIS ELEIFEND VITAE URNA</h3>
+                <h2>Morbi maximus justo</h2>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECTION IMGS -->
+    <section id="main-section">
+        <div class="container">
+            <div class="title">
+                <h3>NAM VEL ANTE SIT AMET LIBERO SCELERISQUE FACILISIS ELEIFEND VITAE URNA</h3>
+                <h2>Morbi maximus justo</h2>
+            </div>
+            <div id="imgs">
+                <img src="./src/img/pic01.jpg">
+                <img src="./src/img/pic02.jpg">
+                <img src="./src/img/pic03.jpg">
+                <img src="./src/img/pic04.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container-footer">
+            <ul>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fa fa-envelope-o"></i></li>             
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy; Untitled. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/slideshow.js"></script>
+</body>
+</html>

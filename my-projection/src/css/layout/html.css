@@ -1,0 +1,68 @@
+/* HTML */
+html {
+    background: url(/images/banner.jpg)no-repeat fixed bottom;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+} 
+/* HEADER */
+header{
+    color: #fff;
+    background: rgb(75, 75, 98);
+    opacity: .8;
+    padding-bottom: 8em;
+    margin: 0;
+}
+    /* HEADER NAV */
+    header nav{
+        padding: 3.3em 0;   
+    }
+    header nav a{
+        padding-left: 1.5em;   
+    }
+    /* HEADER ASIDE */
+    header aside{
+        padding-top: 8em;
+    }
+    aside h1{
+        color: #fff;
+        font-size: 3.5em;
+    }
+    aside h3{
+        color: #fff;
+        font-size: 1.7em;
+        margin: 0;
+    }
+    aside p{
+        color: rgba(255, 255, 255, 0.6);
+    }
+    /* HEADER CONTENT Elements */
+    .elements:nth-child(1){
+        padding-right: 7em;
+    }
+    .elements:nth-child(2){
+        padding: 0 7em;
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .elements:nth-child(3){
+        padding-left: 7em;
+    }
+/* MAIN */
+main{
+    background-color: #fff;
+}
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 6em 0;
+}   
+    footer form{
+        margin-bottom: 2em;
+    }
+    footer h3{
+        color: #fff;
+        font-size: 1.75em;
+        margin-bottom: 2em;
+    }

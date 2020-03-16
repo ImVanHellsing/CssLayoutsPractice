@@ -1,0 +1,17 @@
+/* ROOTS */
+:root{
+    --primary-color:#f6755e;
+    --secundary-color:#25A2C3;
+}
+/* BOX SIZING */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+a,a:visited{
+    text-decoration: none;
+}
+html{
+    font-family: sans-serif;
+}
